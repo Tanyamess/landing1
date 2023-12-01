@@ -1,0 +1,95 @@
+.card-white {
+    width: 700px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgb(192, 4, 79);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+img {
+    border-radius: 50%;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.41);
+    width: 175px;
+    height: 175px; 
+    object-fit: cover;
+
+
+}
+
+
+#tm {
+    box-shadow: none;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#danse {
+    box-shadow: none;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#paris {
+    box-shadow: none;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+
+#P2{
+    text-align: center;
+}
+
+
+#bouton {
+    box-shadow: none;
+    margin: 0 auto;
+    margin-top: 4%;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(192, 4, 145);
+    font-family: 'Times New Roman', Times, serif;
+    white-space: nowrap;
+    text-align: center;
+}
+h2 {
+    color: rgb(192, 4, 145);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 150%;
+
+}
+
+p {
+    font-family: 'Courier New', Courier, monospaces;
+    text-align: center;
+    margin-top: 4%;
+}
+
+a{
+    background-color: rgba(207, 11, 125, 0.817); 
+    color :#fff;
+    font-size: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 12px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+a:hover {
+    background-color: rgba(206, 58, 93, 0.345);
+    color: rgb(40, 2, 13);
+}
+
+@media (max-width: 990px) {
+    .card-white {
+        width : 400px;
+    }
+}
